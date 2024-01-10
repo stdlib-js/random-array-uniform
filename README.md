@@ -385,6 +385,14 @@ logEach( '%f', x4 );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/random-array/discrete-uniform`][@stdlib/random/array/discrete-uniform]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a discrete uniform distribution.</span>
+-   <span class="package-name">[`@stdlib/random-base/uniform`][@stdlib/random/base/uniform]</span><span class="delimiter">: </span><span class="description">uniformly distributed pseudorandom numbers.</span>
+-   <span class="package-name">[`@stdlib/random-strided/uniform`][@stdlib/random/strided/uniform]</span><span class="delimiter">: </span><span class="description">fill a strided array with pseudorandom numbers drawn from a continuous uniform distribution.</span>
+
 </section>
 
 <!-- /.related -->
@@ -465,6 +473,14 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
 
 [@stdlib/array/float64]: https://github.com/stdlib-js/array-float64
+
+<!-- <related-links> -->
+
+[@stdlib/random/array/discrete-uniform]: https://github.com/stdlib-js/random-array-discrete-uniform
+
+[@stdlib/random/strided/uniform]: https://github.com/stdlib-js/random-strided-uniform
+
+<!-- </related-links> -->
 
 </section>
 

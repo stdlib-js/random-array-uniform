@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/random-array-uniform/tags). For example,
+
+```javascript
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@v0.2.0-esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 ```
 
 #### uniform( len, a, b\[, options] )
@@ -343,7 +348,7 @@ var sz = random.byteLength;
 <script type="module">
 
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
-import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@v0.2.0-esm/index.mjs';
+import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 
 // Create a function for generating random arrays originating from the same state:
 var random = uniform.factory( 2.0, 5.0, {
